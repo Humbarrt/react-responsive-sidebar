@@ -129,7 +129,7 @@ Sidebar.defaultProps = {
 let getStyles = (props, state) => {
   return {
     sidebar: {
-      position: 'absolute',
+      position: 'fixed',
       left: !state.collapsed || state.open ? 0 : -props.width,
       top: 0,
       bottom: 0,
